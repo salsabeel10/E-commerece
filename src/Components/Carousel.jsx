@@ -33,10 +33,10 @@ const Carousel = () => {
   }
 
   return (
-    <div className="relative container mx-auto max-w-[1600px]">
+    <div className="relative container mx-auto w-full">
       <div
         className="relative overflow-hidden w-full"
-        style={{ height: '50vh' }}
+        style={{ height: '60vh' }}
       >
         {slides.map((slide, index) => (
           <div
@@ -47,7 +47,11 @@ const Carousel = () => {
           >
             <div
               className="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center bg-cover bg-right"
-              style={{ backgroundImage: `url(${slide.image})` }}
+              style={{
+                backgroundImage: `url(${slide.image})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
             >
               <div className="container mx-auto">
                 <div className="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
