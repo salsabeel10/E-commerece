@@ -42,7 +42,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a
-                    className="inline-block no-underline hover:text-black dark:hover:text-white hover:underline py-2 px-4"
+                    className="inline-block no-underline hover:text-black dark:hover:text-white  hover:underline py-2 px-4"
                     href="#"
                   >
                     About
@@ -53,13 +53,13 @@ const Nav = () => {
           </div>
 
           {/* Logo */}
-          <div className="order-1 md:order-2">
+          <div className="order-1 md:order-2 ">
             <a
               className="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 dark:text-gray-100 text-xl"
               href="#"
             >
               <svg
-                className="fill-current text-gray-800 dark:text-gray-100 mr-2"
+                className="fill-current text-gray-800 dark:text-gray-100 dark:hover:text-white mr-2"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -78,9 +78,9 @@ const Nav = () => {
             <div className="pr-2">
               <ThemeSelector />
             </div>
-            <a className="inline-block no-underline hover:text-black" href="#">
+            <a className="inline-block no-underline " href="#">
               <svg
-                className="fill-current hover:text-black"
+                className="fill-current hover:text-black dark:hover:text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -92,11 +92,11 @@ const Nav = () => {
             </a>
 
             <a
-              className="pl-3 inline-block no-underline hover:text-black"
+              className="pl-3 inline-block no-underline  "
               href="#"
             >
               <svg
-                className="fill-current hover:text-black"
+                className="fill-current hover:text-black dark:hover:text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
