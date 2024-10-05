@@ -14,7 +14,7 @@ const StoreNav = () => {
         <div className="flex items-center" id="store-nav-content">
           <a className="pl-3 inline-block no-underline " href="#">
             <svg
-              className="fill-current hover:text-black dark:hover:text-white"
+              className="fill-current hover:text-black dark:text-gray-300 dark:hover:text-white"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -29,7 +29,7 @@ const StoreNav = () => {
             href="#"
           >
             <svg
-              className="fill-current hover:text-black dark:hover:text-white"
+              className="fill-current hover:text-black dark:text-gray-300 dark:hover:text-white"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
