@@ -34,7 +34,7 @@ const Nav = () => {
               <ul className="md:flex items-center justify-between text-base text-gray-700 dark:text-gray-300 pt-4 md:pt-0">
                 <li>
                   <a
-                    className="inline-block no-underline hover:text-black dark:hover:text-white hover:underline py-2 px-4"
+                    className="inline-block no-underline hover:text-black  dark:hover:text-white hover:underline py-2 px-4"
                     href="#"
                   >
                     Shop

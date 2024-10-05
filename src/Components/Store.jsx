@@ -13,7 +13,7 @@ const Store = () => {
   }
   return (
     <div>
-      <section className="bg-white dark:bg-gray-800 py-8">
+      <section className="bg-white dark:bg-gray-950 py-8">
         <div className="container mx-auto flex items-center flex-wrap pt-4 pb-12">
           <StoreNav />
           {/* Products List */}
